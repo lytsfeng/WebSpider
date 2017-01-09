@@ -2,8 +2,8 @@ package scheduler
 
 import (
 	"net/http"
-	"webcrawler/analyzer"
 	"WebSpider/itempipeline"
+	"WebSpider/analzyer"
 )
 
 
@@ -25,19 +25,19 @@ type Scheduler interface {
 	*/
 	Start(channelLen uint,poolSize uint32,crawDepth uint32,
 			httpClientGennerator GenHttpClient,
-			respParsers [] analyzer.ParseResponse,
+			respParsers [] analzyer.ParsePesPonse,
 			itemProcessors [] itempipeline.ProcessorItem,
 			firstHttpReq *http.Request) (err error)
-	Stop() bool // 停止调度器运行
- 	Running() bool //判断调度器是否正在运行
+	Stop() bool 		// 停止调度器运行
+ 	Running() bool 		//判断调度器是否正在运行
 	/**
-	获取错误通道
-	调度器以及各个处理模块在运行过程中出现所有的错误都会被送到该通道
-	如果放回nil 说明错误通道不可用或调度器已经停止
+		获取错误通道
+		调度器以及各个处理模块在运行过程中出现所有的错误都会被送到该通道
+		如果放回nil 说明错误通道不可用或调度器已经停止
 	 */
 	ErrorChan() <- chan error
 	//判断调度器时候处于空闲状态
 	Idle() bool
 	//获取摘要信息
-	Summary(prefix string)
+	Summary(prefix string) SchedSummary
 }
