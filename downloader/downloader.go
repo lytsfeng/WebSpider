@@ -1,6 +1,8 @@
 package downloader
 
-import "webcrawler/base"
+import (
+	"WebSpider/base"
+)
 
 type PageDownloader interface {
 	Id() uint32

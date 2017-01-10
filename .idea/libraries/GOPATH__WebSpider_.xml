@@ -1,25 +1,57 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;WebSpider&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../flora-kit" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../.idea" />
-      <root url="file://$PROJECT_DIR$/../WebApp" />
-      <root url="file://$PROJECT_DIR$/../HelloGoLang" />
-      <root url="file://$PROJECT_DIR$/../Learn" />
+      <root url="file://$PROJECT_DIR$/../logging" />
+      <root url="file://$PROJECT_DIR$/../testing" />
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../aurora" />
+      <root url="file://$PROJECT_DIR$/../loadgen" />
+      <root url="file://$PROJECT_DIR$/../sync1" />
+      <root url="file://$PROJECT_DIR$/../pkgtool" />
+      <root url="file://$PROJECT_DIR$/../multiproc" />
+      <root url="file://$PROJECT_DIR$/../helper" />
+      <root url="file://$PROJECT_DIR$/../basic" />
+      <root url="file://$PROJECT_DIR$/../cnet" />
+      <root url="file://$PROJECT_DIR$/../chan1" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../sorter" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../GoWebLearn" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../Simple Media Player" />
+      <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../HelloGoLang" />
+      <root url="file://$PROJECT_DIR$/../learn-algorithm-365" />
+      <root url="file://$PROJECT_DIR$/../chill" />
+      <root url="file://$PROJECT_DIR$/../calc" />
+      <root url="file://$PROJECT_DIR$/../flora-kit-0.1.1" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../flora-kit" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../.idea" />
-      <root url="file://$PROJECT_DIR$/../WebApp" />
-      <root url="file://$PROJECT_DIR$/../HelloGoLang" />
-      <root url="file://$PROJECT_DIR$/../Learn" />
+      <root url="file://$PROJECT_DIR$/../logging" />
+      <root url="file://$PROJECT_DIR$/../testing" />
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../aurora" />
+      <root url="file://$PROJECT_DIR$/../loadgen" />
+      <root url="file://$PROJECT_DIR$/../sync1" />
+      <root url="file://$PROJECT_DIR$/../pkgtool" />
+      <root url="file://$PROJECT_DIR$/../multiproc" />
+      <root url="file://$PROJECT_DIR$/../helper" />
+      <root url="file://$PROJECT_DIR$/../basic" />
+      <root url="file://$PROJECT_DIR$/../cnet" />
+      <root url="file://$PROJECT_DIR$/../chan1" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../sorter" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../GoWebLearn" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../Simple Media Player" />
+      <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../HelloGoLang" />
+      <root url="file://$PROJECT_DIR$/../learn-algorithm-365" />
+      <root url="file://$PROJECT_DIR$/../chill" />
+      <root url="file://$PROJECT_DIR$/../calc" />
+      <root url="file://$PROJECT_DIR$/../flora-kit-0.1.1" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
