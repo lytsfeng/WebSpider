@@ -5,7 +5,6 @@ import (
 	"errors"
 	"fmt"
 	"sync"
-	"go/parser"
 )
 
 
@@ -87,6 +86,12 @@ func (pool *myPool)Return(entity Entity) error  {
 	return  nil
 }
 
+func (pool *myPool)Total() uint32{//实体池的容量
+	return pool.total
+}
+func (pool *myPool) Used() uint32{		//已经被使用的实体的数量
+	return pool.total - uint32(len(pool.container))
+}
 
 
 func NewPool(total uint32,entityType reflect.Type,genEntity func() Entity)  (Pool,error){
@@ -110,7 +115,7 @@ func NewPool(total uint32,entityType reflect.Type,genEntity func() Entity)  (Poo
 
 	return &myPool{total:total,
 		etype:entityType,
-		genEntity:genEntity(),
+		genEntity:genEntity,
 		container:container,
 		idcontainer:idContainer},nil
 }

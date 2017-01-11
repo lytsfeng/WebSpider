@@ -16,7 +16,7 @@ type Request struct{
 }
 
 //创建新的请求
-func NewRequess(httpReq *http.Request,depth uint32) *Request{
+func NewRequest(httpReq *http.Request,depth uint32) *Request{
 	return &Request{httpReq:httpReq,depth:depth}
 }
 
@@ -37,7 +37,7 @@ type Response struct {
 	httpRes *http.Response  // http 响应
 	depth uint32
 }
-func NewResponse(httpRes http.Response,depth uint32) *Response {
+func NewResponse(httpRes *http.Response,depth uint32) *Response {
 	return &Response{httpRes:httpRes,depth:depth}
 }
 func (res *Response) HttpRes() *http.Response  {
